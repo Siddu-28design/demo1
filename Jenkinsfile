@@ -1,6 +1,6 @@
 pipeline {
 
-	agent any
+	agent { label 'Windows_Slave_Siddu' }
 
 	
 	tools {
